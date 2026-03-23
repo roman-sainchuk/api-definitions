@@ -1,4 +1,6 @@
 const { set } = require('es-toolkit/compat')
+
+console.log('ES_COMPAT', require.resolve('es-toolkit/compat'))
 module.exports = RemoveTagGroups;
 
 /** @type {import('@redocly/cli').OasDecorator} */
