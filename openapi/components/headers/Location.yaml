@@ -1,4 +1,4 @@
-description: Location of the related resource.
+description: Location of the related resource. Maek ttype.
 schema:
   type: string
   format: uri
