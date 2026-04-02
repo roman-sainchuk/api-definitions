@@ -1,8 +1,8 @@
 name: id
 in: path
-description: ID of the resource.
+description: Resource ID number
 required: true
 schema:
   type: string
   maxLength: 50
-  pattern: '^[@~\-\.\w]+$'
+  pattern: '^[@~\.\w+]+$'
