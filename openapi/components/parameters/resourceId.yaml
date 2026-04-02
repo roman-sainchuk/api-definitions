@@ -1,6 +1,6 @@
 name: id
 in: path
-description: Resource ID number.
+description: Resource ID number
 required: true
 schema:
   type: string
