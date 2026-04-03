@@ -12,7 +12,7 @@ info:
   termsOfService: 'https://www.rebilly.com/terms-of-use/'
   x-logo:
     url: 'https://rebilly-core.redoc.ly/rb_apiLogo.svg'
-    backgroundColor: '#0044d4'
+    backgroundColor: '#2e5cc7'
   description:
     $ref: description.md
 
