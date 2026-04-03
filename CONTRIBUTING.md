@@ -1,4 +1,4 @@
-# Contributing to the Rebilly API definitions 1
+# Contributing to the Rebilly API definitions
 
 👍🎉 Welcome! And thanks for taking the time to contribute! 🎉👍
 
