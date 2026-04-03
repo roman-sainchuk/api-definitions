@@ -4,14 +4,14 @@ properties:
     description: Type of fee.
     type: string
     enum: ["buy", "sell"]
-  name:
+  title:
     type: string
-    description: Name of the fee.
+    description: Title of the fee.
     minLength: 1
     maxLength: 255
     example: 'A gateway fee'
   filter:
-    description: Filter that is based on the properties of the transaction and used to determine when to apply the fee.
+    description: Filter transactions by specific parameters. Format is 'key:value,value;key:value'. For example, 'type:sale,capture;result:approved' will filter transactions of type 'sale' or 'capture' with result 'approved'..
     minLength: 1
     maxLength: 255
     example: 'type:sale,capture;result:approved'
@@ -27,4 +27,3 @@ properties:
     oneOf:
       - $ref: ../schemas/SettlementSettings.yaml
       - type: 'null'
-
