@@ -6,6 +6,7 @@ get:
   summary: Retrieve API keys
   operationId: GetApiKeyCollection
   x-sdk-operation-name: getAll
+  x-redocly-type: Experimental
   description: Retrieve a list of API keys.
   parameters:
     - $ref: ../components/parameters/collectionFilter.yaml

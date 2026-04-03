@@ -60,7 +60,7 @@ apis:
     root: openapi/openapi.yaml
     output: catalog/reports.yaml
     metadata:
-      description: APIs for reporting purposes.
+      description: APIs metadata for reporting purposes.
     decorators:
       filter-in:
         property: x-products
@@ -252,6 +252,15 @@ rules:
         - example
         - examples
       mutuallyExclusive:
+        - example
+        - examples
+
+  rule/operation_id_should_have_underscore:
+    severity: off
+    subject:
+      type: OperationId
+    assertions:
+      requireAny:
         - example
         - examples
 

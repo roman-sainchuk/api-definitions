@@ -12,7 +12,7 @@ info:
   termsOfService: 'https://www.rebilly.com/terms-of-use/'
   x-logo:
     url: 'https://rebilly-core.redoc.ly/rb_apiLogo.svg'
-    backgroundColor: '#0044d4'
+    backgroundColor: '#040c1d'
   description:
     $ref: description.md
 
@@ -89,6 +89,20 @@ components:
       type: http
       scheme: bearer
       bearerFormat: JWT
+      
+    BasicAuth:
+      description: |-
+        Basic authentication with username and password.        
+        Usage format: `Basic base64(username:password)`.
+      type: http
+      scheme: basic
+      
+    QueryApiKey:
+      description: |-
+        API key passed as a query parameter.
+      name: api_key
+      type: apiKey
+      in: query
 
 tags:
   - name: Allowlists
@@ -1139,8 +1153,10 @@ paths:
     $ref: ./paths/service-credentials@{type}.yaml
   '/service-credentials/{type}/{id}':
     $ref: ./paths/service-credentials@{type}@{id}.yaml
-  '/service-credentials/{type}/{id}/items':
+  '/service-creds/{type}/{id}/items':
     $ref: ./paths/service-credentials@{type}@{id}@items.yaml
+  '/service-cred/{type}/{id}/items':
+    $ref: ./paths/service-credential/@{id}@items.yaml
   /custom-domains:
     $ref: ./paths/custom-domains.yaml
   '/custom-domains/{domain}':
