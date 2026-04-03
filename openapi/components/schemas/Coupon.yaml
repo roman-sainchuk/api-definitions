@@ -10,8 +10,8 @@ properties:
       ID of the coupon.
       This value is also known as the coupon redemption code.
     readOnly: true
-    maxLength: 50
-    example: cpn_0YVCNKF81GD778N4YNVGDJK558
+    maxLength: 20
+    example: cpn_0YVCNKF81GD778N4YNVGDJK55
   discount:
     $ref: ./Discount.yaml
   restrictions:
@@ -50,7 +50,6 @@ properties:
       This value may also be described as start time of the coupon.
     type: string
     x-label: Valid from
-    x-sortable: true
     x-basic: true
     format: date-time
   expiredTime:
