@@ -4,7 +4,7 @@ Our website (www.rebilly.com) is powered by [Redocly Realm](https://redocly.com/
 
 ## View API docs
 
-To view the full Rebilly API reference documentation, go to [https://www.rebilly.com/catalog/all/](https://www.rebilly.com/catalog/all/).
+To view the full Rebilly API reference documentation, go to [https://www.realm.com/catalog/all/](https://www.realm.com/catalog/all/).
 
 The full Rebilly API reference documentation has over 500 operations.
 This is likely more than you may need to implement your use cases.
