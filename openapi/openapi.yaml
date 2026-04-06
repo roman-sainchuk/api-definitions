@@ -831,8 +831,8 @@ paths:
     $ref: ./paths/coupons@{id}@expiration.yaml
   /credentials:
     $ref: ./paths/credentials.yaml
-  '/credentials/{id}':
-    $ref: ./paths/credentials@{id}.yaml
+  '/credential/{id}':
+    $ref: ./paths/credential@{id}.yaml
   '/custom-fields/{resource}':
     $ref: ./paths/custom-fields@{resource}.yaml
   '/custom-fields/{resource}/{name}':
