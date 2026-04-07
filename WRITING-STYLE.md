@@ -49,7 +49,7 @@ This description provides detail on what a hard limit is.
 
 ```yaml
   hardLimit:
-    type: [ 'object', 'null' ]
+    type: [ 'object', 'null', 'undefined' ]
     description: |-
       Defines a limit where the customer can no longer use the service.
       Hard limits are used in addition to soft limits.
