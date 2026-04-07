@@ -2,6 +2,7 @@ const NoUnusedTags = require('./rules/no-unused-tags');
 const SiblingRef = require('./rules/sibling-ref');
 const id = 'custom-rules';
 
+// Changes outside connected folder
 /** @type {import('@redocly/openapi-cli').CustomRulesConfig} */
 const rules = {
     oas3: {
