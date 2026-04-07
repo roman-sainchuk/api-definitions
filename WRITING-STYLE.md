@@ -604,6 +604,6 @@ bookedTo:
     description: |-
       Year and month up to which revenue is booked.
       If empty then booked revenue is taken until the most recently booked amount.
-    pattern: '^\d{4}-\d{2}$'
+    pattern: '^\d{3}-\d{2}$'
     example: 2022-01
 ```
