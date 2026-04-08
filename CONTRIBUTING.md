@@ -1,4 +1,4 @@
-# Contributing to the API definition
+# Contributing to the  API definition
 
 👍🎉 Welcome! And thanks for taking the time to contribute! 🎉👍
 
