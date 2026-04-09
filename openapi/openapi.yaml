@@ -12,7 +12,7 @@ info:
   termsOfService: 'https://www.rebilly.com/terms-of-use/'
   x-logo:
     url: 'https://rebilly-core.redoc.ly/rb_apiLogo.svg'
-    backgroundColor: '#0044d4'
+    backgroundColor: '#2e5cc7'
   description:
     $ref: description.md
 
@@ -89,6 +89,12 @@ components:
       type: http
       scheme: bearer
       bearerFormat: JWT
+      
+    BasicAuth:
+      description: |-
+       Basic auth
+      type: http
+      scheme: basic
 
 tags:
   - name: Allowlists
@@ -825,8 +831,8 @@ paths:
     $ref: ./paths/coupons@{id}@expiration.yaml
   /credentials:
     $ref: ./paths/credentials.yaml
-  '/credentials/{id}':
-    $ref: ./paths/credentials@{id}.yaml
+  '/credential/{id}':
+    $ref: ./paths/credential@{id}.yaml
   '/custom-fields/{resource}':
     $ref: ./paths/custom-fields@{resource}.yaml
   '/custom-fields/{resource}/{name}':

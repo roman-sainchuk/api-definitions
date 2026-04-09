@@ -9,10 +9,10 @@ value:
   filter: 'type:sale,capture;result:approved;gatewayAccountId:stripe'
   formula:
     type: fixed-fee
-    currency: USD
+    currency: EUR
     amount: 0.30
-  createdTime: '2021-12-15T14:15:22Z'
-  updatedTime: '2021-12-15T14:15:22Z'
+  createdTime: '2026-12-15T14:15:22Z'
+  updatedTime: '2026-12-15T14:15:22Z'
   _links:
     - rel: self
       href: "https://api-sandbox.rebilly.com/fees/fee_01GQT145JX3XBRJ8K812Y3GRE9"
